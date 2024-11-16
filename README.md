@@ -7,3 +7,7 @@
 
 ## Questions
 * How to have to different golang versions installed on the same computer (something like venvs in python)
+* Look at viper: https://github.com/spf13/viper
+
+## Continue
+Here: https://spf13.com/presentation/building-an-awesome-cli-app-in-go-oscon/ (slide 136)
