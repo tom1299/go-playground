@@ -1,8 +1,11 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+
+*/
 package main
 
-import "fmt"
+import "go-playground/cmd"
 
 func main() {
-	name := "Go Developers"
-	fmt.Println("Azure for", name)
+	cmd.Execute()
 }
