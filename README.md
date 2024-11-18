@@ -10,7 +10,7 @@
 * Look at viper: https://github.com/spf13/viper
 
 ## Continue
-Here: https://spf13.com/presentation/building-an-awesome-cli-app-in-go-oscon/ (slide 136)
+Here: https://spf13.com/presentation/building-an-awesome-cli-app-in-go-oscon/ (slide 192)
 
 ## Building
 Build a go application for different operating systems: `env GOOS=windows GOARCH=amd64 go build .`
