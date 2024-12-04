@@ -17,15 +17,15 @@ Build a go application for different operating systems: `env GOOS=windows GOARCH
 
 ## Updating go version (Copilot answer)
 
-1. Open the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/reuhl/git/github/go-playground/go.mod") file in your project.
-2. Locate the [`go`](command:_github.copilot.openSymbolFromReferences?%5B%22go%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A0%2C%22character%22%3A7%7D%7D%5D%5D "Go to definition") directive, which specifies the current Go version.
+1. Open the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/tom1299/git/github/go-playground/go.mod") file in your project.
+2. Locate the [`go`](command:_github.copilot.openSymbolFromReferences?%5B%22go%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A0%2C%22character%22%3A7%7D%7D%5D%5D "Go to definition") directive, which specifies the current Go version.
 3. Change the version number to the desired Go version.
-4. Save the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/reuhl/git/github/go-playground/go.mod") file.
+4. Save the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/tom1299/git/github/go-playground/go.mod") file.
 5. Run `go mod tidy` to ensure the module dependencies are updated.
 
 ### Example
 
-If you want to update the Go version from [`1.18`](command:_github.copilot.openSymbolFromReferences?%5B%221.18%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A2%2C%22character%22%3A3%7D%7D%5D%5D "Go to definition") to `1.19`, modify the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/reuhl/git/github/go-playground/go.mod") file as follows:
+If you want to update the Go version from [`1.18`](command:_github.copilot.openSymbolFromReferences?%5B%221.18%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22external%22%3A%22file%3A%2F%2F%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A2%2C%22character%22%3A3%7D%7D%5D%5D "Go to definition") to `1.19`, modify the [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2Fgo-playground%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/tom1299/git/github/go-playground/go.mod") file as follows:
 
 ```go
 module go-playground
@@ -48,11 +48,11 @@ go mod tidy
 
 ## Requesting certificates using lego
 
-Thomas-Reuhl_dtag: Can I build a go module which requires golang `1.18` with go `1.23` ?
+tom1299: Can I build a go module which requires golang `1.18` with go `1.23` ?
 
 GitHub Copilot: Yes, you can build a Go module that requires Go `1.18` with Go `1.23`. Go is backward compatible, so a newer version of the Go compiler can build code that was written for an older version.
 
-To specify that your module requires at least Go `1.18`, you can set the `go` directive in your [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2FReloader-fork%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/reuhl/git/github/Reloader-fork/go.mod") file like this:
+To specify that your module requires at least Go `1.18`, you can set the `go` directive in your [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2FReloader-fork%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/tom1299/git/github/Reloader-fork/go.mod") file like this:
 
 ```go
 module your-module-name
@@ -70,13 +70,13 @@ Then, you can build your module with Go `1.23` using the following command in yo
 go build
 ```
 
-This will use the Go `1.23` compiler to build your module, while still respecting the `go 1.18` directive in your [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Freuhl%2Fgit%2Fgithub%2FReloader-fork%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/reuhl/git/github/Reloader-fork/go.mod") file.
+This will use the Go `1.23` compiler to build your module, while still respecting the `go 1.18` directive in your [`go.mod`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fhome%2Ftom1299%2Fgit%2Fgithub%2FReloader-fork%2Fgo.mod%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/home/tom1299/git/github/Reloader-fork/go.mod") file.
 
-Thomas-Reuhl_dtag: So the compiler ensures backward compatibility ?
+tom1299: So the compiler ensures backward compatibility ?
 
 GitHub Copilot: Yes, the Go compiler ensures backward compatibility. This means that code written for an older version of Go (e.g., Go 1.18) should compile and run correctly with a newer version of the Go compiler (e.g., Go 1.23). The Go team places a strong emphasis on maintaining backward compatibility to ensure that upgrading to a newer version of Go does not break existing code.
 
-Thomas-Reuhl_dtag: Is there a go module for requesting a certificate like I can do with cert-bot ? 
+tom1299: Is there a go module for requesting a certificate like I can do with cert-bot ? 
 
 GitHub Copilot: Yes, there is a Go module called `lego` that you can use to request certificates from Let's Encrypt, similar to what you can do with Certbot. The `lego` library is a Let's Encrypt client and supports the ACME protocol.
 
